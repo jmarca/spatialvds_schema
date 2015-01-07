@@ -21,3 +21,19 @@ described here:
 
 Make sure to follow the correct instructions for windows or Linux
 
+## okay
+
+I ran the dbic script, then the module starter stuff, to create perl
+modules.
+
+All you have to do is to cd into the Testbed-Spatial-VDS-Schema
+directory, then as appropriate for your distro (woindows, linux, mac,
+etc) run
+
+```
+perl Makefile.PL
+make
+sudo make install
+```
+
+to use the libraries
