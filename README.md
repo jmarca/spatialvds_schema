@@ -21,6 +21,3 @@ described here:
 
 Make sure to follow the correct instructions for windows or Linux
 
-# command line
-
-The command line needs options passed in to work.
