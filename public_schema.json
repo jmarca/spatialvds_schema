@@ -1,0 +1,15 @@
+{"schema_class":"Testbed::Spatial::VDS::Schema",
+
+ "connect_info":{
+     "dsn":"dbi:Pg:dbname=spatialvds;host=metis.its.uci.edu",
+     "user":"slash"
+ },
+ "loader_options":{
+     "dump_directory": "./lib",
+     "db_schema": ["public","hsis","wim","newctmlmap","tempseg"],
+     "debug":false,
+     "moniker_parts":  ["schema", "name"],
+     "moniker_part_separator":  "::",
+     "naming": {"ALL":"v8", "force_ascii" : true}
+ }
+}
