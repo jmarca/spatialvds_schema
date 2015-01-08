@@ -31,9 +31,19 @@ directory, then as appropriate for your distro (woindows, linux, mac,
 etc) run
 
 ```
-perl Makefile.PL
-make
-sudo make install
+perl Build.PL
+./Build
+./Build test
+sudo ./Build install
 ```
 
 to use the libraries
+
+Note that the perl Build.PL part will complain.  I'm ignoring that for
+now, and the library still installs fine.
+
+Also, all the test does is to make sure all of the expected classes
+can be loaded in a simple perl script.  It doesn't actually use the
+classes to access anything or do anything, it basically is just
+checking to make sure that all of the parent classes (DBIx::Class,
+etc) are installed.
