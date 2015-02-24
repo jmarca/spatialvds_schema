@@ -93,6 +93,18 @@ __PACKAGE__->add_columns(
     is_nullable => 1,
     original    => { data_type => "varchar" },
   },
+  "internal_class_notes",
+  {
+    data_type   => "text",
+    is_nullable => 1,
+    original    => { data_type => "varchar" },
+  },
+  "internal_weight_notes",
+  {
+    data_type   => "text",
+    is_nullable => 1,
+    original    => { data_type => "varchar" },
+  },
 );
 
 =head1 PRIMARY KEY
