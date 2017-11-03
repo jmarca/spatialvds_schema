@@ -1,7 +1,7 @@
 {"schema_class":"Testbed::Spatial::VDS::Schema",
 
  "connect_info":{
-     "dsn":"dbi:Pg:dbname=spatialvds;host=metis.its.uci.edu",
+     "dsn":"dbi:Pg:dbname=spatialvds;host=127.0.0.1;port=5433",
      "user":"slash"
  },
  "loader_options":{

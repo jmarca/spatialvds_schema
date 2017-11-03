@@ -316,7 +316,7 @@ __PACKAGE__->set_primary_key("id");
 
 =head1 RELATIONS
 
-=head2 
+=head2 statsid
 
 Type: belongs_to
 
@@ -325,7 +325,7 @@ Related object: L<Testbed::Spatial::VDS::Schema::Result::Public::StatsId>
 =cut
 
 __PACKAGE__->belongs_to(
-  "",
+  "statsid",
   "Testbed::Spatial::VDS::Schema::Result::Public::StatsId",
   { id => "id" },
   { is_deferrable => 0, on_delete => "CASCADE", on_update => "NO ACTION" },

@@ -57,7 +57,7 @@ __PACKAGE__->set_primary_key("id");
 
 =head1 RELATIONS
 
-=head2 
+=head2 octamnode
 
 Type: belongs_to
 
@@ -66,7 +66,7 @@ Related object: L<Testbed::Spatial::VDS::Schema::Result::Public::OctamNode>
 =cut
 
 __PACKAGE__->belongs_to(
-  "",
+  "octamnode",
   "Testbed::Spatial::VDS::Schema::Result::Public::OctamNode",
   { id => "id" },
   { is_deferrable => 0, on_delete => "NO ACTION", on_update => "NO ACTION" },
